@@ -1,21 +1,23 @@
 
 
 public class InputNode{
-	private String direction;
-	private String protocol;
-	private String port;
-	private String IPaddress;
+     private String direction;
+     private String protocol;
+     private String port;
+     private String IPaddress;
 	
-	public InputNode(String direction, String protocol, String port, String IPaddress) {
-		this.direction = direction;
-		this.protocol = protocol;
-		this.port = port;
-		this.IPaddress = IPaddress;
-	}
+    //constructor
+     public InputNode(String direction, String protocol, String port, String IPaddress) {
+	this.direction = direction;
+	this.protocol = protocol;
+	this.port = port;
+	this.IPaddress = IPaddress;
+      }
 	
-	public String toString() {
-		return "Direction: " + this.direction + ", Protocol: " + this.protocol + ", Port: " + this.port + ", IP Address: " + this.IPaddress;
-	}
+	
+    public String toString() {
+	 return "Direction: " + this.direction + ", Protocol: " + this.protocol + ", Port: " + this.port + ", IP Address: " + this.IPaddress;
+    }
   
     public String getDirection() {
     	return this.direction;
